@@ -3,7 +3,6 @@ import "../css/NavbarStyles.css"
 import { BsFilterRight, BsXCircle } from "react-icons/bs";
 import { FiArrowDownCircle } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import HomeRight from "./sub_components/HomeRight";
 import "../css/white_div.css";
 import "../css/home.css";
 
