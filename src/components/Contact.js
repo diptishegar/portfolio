@@ -20,8 +20,8 @@ function Contact (){
         <div className="social_media" style={{    marginTop: "1rem" }}>
        <a href="https://www.instagram.com/diptis140/"><span className="social_icons_span"><BiLogoInstagram className="social_icons_c"/></span></a>
        <a href="tel:+919130778787"><span className="social_icons_span"><BiPhone className="social_icons_c" /></span></a>
-       <a href=""><span className="social_icons_span"><GrLinkedinOption className="social_icons_c" /></span></a>
-       <a href=""><span className="social_icons_span"><FiMail className="social_icons_c" /></span></a>
+       <a href="https://www.linkedin.com/in/dipti-shegar-a99577209/"><span className="social_icons_span"><GrLinkedinOption className="social_icons_c" /></span></a>
+       <a href="diptishegar@gmail.com"><span className="social_icons_span"><FiMail className="social_icons_c" /></span></a>
      </div>
 
         </div>
