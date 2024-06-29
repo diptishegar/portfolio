@@ -1,0 +1,137 @@
+.home_main{
+    position: relative;
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1px;
+}
+
+.home_div_left{
+    height: 100vh;
+    flex: 75% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.home_div_left .Typewriter{
+    background: #093a4d;
+    padding: 15px 22px 15px 22px;
+    border-radius: 10px;
+    font-size: 35px;
+    margin-top: -5rem;
+}
+
+
+@media screen and (max-width: 768px){
+    .home_div_left .Typewriter{
+        background: #093a4d;
+        padding: 15px 22px 15px 22px;
+        border-radius: 10px;
+        font-size: 22px !important;
+        margin-top: -5rem;
+    }
+}
+
+.home_div_right{
+    height: 100vh;
+    flex: 20% !important;
+    border-radius: 7px !important;
+}
+
+/* ----------Profile Pic Style--------- */
+
+.image_profile{
+    background-repeat: no-repeat !important;
+    border-radius: 50% !important;
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    background-size: cover !important;
+    background-position: center !important;
+    background-color: white !important;
+    background: url('../media/images/profilePic.jpg');
+}
+
+.img_profile_div{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px !important;
+}
+
+/* ----------Icons Style--------- */
+
+.icons_div{
+    background-color: #093a4d;
+    padding: 0rem 2rem 1rem 2rem;
+    height: 40%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    color: #536F16;
+}
+
+.education_item:hover{
+    border:2px solid #536F16;
+    background: #093a4d79;
+ }
+
+.icon_img_png{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+/* ----------social media Style--------- */
+
+.social_media{
+    margin-top: -2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+.social_icons{
+    background: #093a4d;
+    border-radius: 50%;
+    height: 26px;
+    width: 29px;
+    padding: 3.5px;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.social_icons:hover{
+    color: #536F16;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}

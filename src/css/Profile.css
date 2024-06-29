@@ -1,0 +1,37 @@
+
+@media screen and (max-width: 768px) {
+  
+    #profile_div{
+        top: -60rem;
+        position: fixed;
+        transition: 0.7s ease-in-out;
+    }
+    #profile_div.active{
+        position: fixed;
+        top: 0px;
+        transition: 0.7s ease-in-out;
+        z-index: 999999;
+    }
+
+    .new_home_right{
+        height: 100vh;
+        border-radius: 7px !important;
+        margin-left: -5rem;
+    }
+
+    .down_arrow{
+        margin-left: -3rem;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .new_home_right{
+        display: none !important;
+        width: -webkit-fill-available !important;
+
+    }
+}
+
+

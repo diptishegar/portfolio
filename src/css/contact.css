@@ -1,0 +1,111 @@
+.education_item{
+    padding-bottom: 10px;
+    background: #093a4d;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+
+.education_item:hover{
+   border:2px solid #536F16;
+   box-shadow: 0px 1px 17px #536F16;
+
+}
+
+
+.education_main_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    color: white;
+    width: -webkit-fill-available;
+}
+.home_div_left{
+    height: 100vh;
+    flex: 75% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+
+@media screen and (max-width: 420px){
+    .experience_div_div{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 421px){
+    .experience_div_div{
+        margin-top: -5rem !important;
+    }
+}
+
+
+.home_div_left::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .home_div_left::-webkit-scrollbar-track {
+    background: rgba(80, 81, 81, 0.59) !important;       /* color of the tracking area */
+  }
+  
+  .home_div_left::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgba(80, 81, 81, 0.59) !important;  /* creates padding around scroll thumb */
+  }
+
+
+  .image_contact{
+    height: 250px;
+    width: 250px;
+    object-fit: cover !important;
+    background-position: center;
+    display: inline-block !important;
+    background-size: cover !important;
+    border-radius: 50%;
+    padding: 0rem !important;
+    background: url('../media/images/c.jpg');
+  }
+
+.social_icons_span{
+    background: #536F16;
+    color: white;
+    border-radius: 50%;
+    transition: 1s ease-in-out;
+}
+
+.social_icons_span:hover{
+    color: #536F16;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.social_icons_c{
+    width: 32px;
+    height: 32px;
+}
+
+.bg-transparent{
+    background-color: transparent !important;
+}
+
+.border_contacts{
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 7px;
+    transition: 1s ease-in-out;
+}
+
+.border_contacts:hover{
+    border: 2px solid #536F16;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
