@@ -1,9 +1,7 @@
 
 import React from "react";
-import { useSpring, animated } from 'react-spring';
 import "../css/contact.css";
 import "../css/white_div.css";
-import HomeRight from "./sub_components/HomeRight";
 import { BiLogoInstagram, BiPhone } from "react-icons/bi";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FiMail } from "react-icons/fi";
