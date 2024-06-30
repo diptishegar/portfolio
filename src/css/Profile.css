@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   
     #profile_div{
         top: -60rem;
@@ -25,7 +25,7 @@
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
 
     .new_home_right{
         display: none !important;

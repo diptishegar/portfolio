@@ -9,7 +9,8 @@ function Home (){
     return(
 <>
 <div className="home_main" style={{ position:"absolute", color:"white"}}>
-<div className="home_div_left home_main_white" style={{ overflow: "hidden"}}>
+<div className="home_div_left home_main_white new_home_left" style={{ overflow: "hidden"}}>
+<i className="image_profile home_left_img" />
 <Typewriter
 options={{
     strings: [

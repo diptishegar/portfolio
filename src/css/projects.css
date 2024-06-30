@@ -103,6 +103,10 @@
     .mobile_project_div{
         flex-direction: column !important;
     }
+    .project_div_div{
+        margin-top: 13rem !important;
+
+    }
 }
 
 @media screen and (min-width: 768px){

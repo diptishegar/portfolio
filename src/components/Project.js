@@ -24,7 +24,7 @@ function Projects (){
 <>
     <div className="education_main_div">
        <div className="home_main_white home_div_left" style={{ display:"flex", flex:"75%"}}>
-       <div className="experience_div_div">
+       <div className="experience_div_div project_div_div">
        
           <animated.div className="project_item" style={springProps1}>
           <div className="mobile_project_div" style={{ display: "flex", flexDirection: "row", alignItems: "center"}}><div>

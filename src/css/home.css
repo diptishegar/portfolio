@@ -43,6 +43,15 @@
     border-radius: 7px !important;
 }
 
+.new_home_left{
+    overflow: hidden;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap;
+}
+
 /* ----------Profile Pic Style--------- */
 
 .image_profile{
@@ -57,6 +66,28 @@
     background-position: center !important;
     background-color: white !important;
     background: url('../media/images/profilePic.jpg');
+}
+
+.home_left_img{
+    margin-bottom: 8rem;
+    margin-top: 1rem;
+    position: relative !important;
+}
+
+@media screen and (min-width: 1024px){
+    .home_left_img{
+        display: none !important;
+    }
+
+    .new_home_left{
+        flex: 75% 1 !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        height: 100vh !important;
+        flex-wrap: nowrap !important;
+    }
 }
 
 .img_profile_div{
