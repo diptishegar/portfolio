@@ -29,9 +29,9 @@ function Contact (){
        <a href="https://www.instagram.com/diptis140/"><span className="social_icons_span"><BiLogoInstagram className="social_icons_c"/></span></a>
        <a href="tel:+919130778787"><span className="social_icons_span"><BiPhone className="social_icons_c" /></span></a>
        <a href="https://www.linkedin.com/in/dipti-shegar-a99577209/"><span className="social_icons_span"><GrLinkedinOption className="social_icons_c" /></span></a>
-       <a href="diptishegar@gmail.com"><span className="social_icons_span"><FiMail className="social_icons_c" /></span></a>
+       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=diptishegar@gmail.com"><span className="social_icons_span"><FiMail className="social_icons_c" /></span></a>
      </div>
-
+     
         </div>
       </animated.div>
        </div>
