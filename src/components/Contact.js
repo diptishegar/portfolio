@@ -5,14 +5,22 @@ import "../css/white_div.css";
 import { BiLogoInstagram, BiPhone } from "react-icons/bi";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FiMail } from "react-icons/fi";
+import { useSpring, animated } from 'react-spring';
 
 function Contact (){
+
+  const springProps1 = useSpring({
+    from: { transform: 'translateY(-100%)', opacity: 0 },
+    to: { transform: 'translateY(0%)', opacity: 1 },
+    config: { duration: 500 },
+    delay:300
+  });
 
     return(
 <>
     <div className="education_main_div">
        <div className="home_main_white home_div_left bg-transparent" style={{ overflow: "hidden", display:"flex", flex:"75%"}}>
-       <div className="experience_div_div border_contacts">
+       <animated.div style={ springProps1 } className="experience_div_div border_contacts">
        <div style={{ padding: "0.5rem" }}>
           <i className="image_contact" />
         </div>
@@ -25,7 +33,7 @@ function Contact (){
      </div>
 
         </div>
-      </div>
+      </animated.div>
        </div>
     </div>
 </>

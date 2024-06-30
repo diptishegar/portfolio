@@ -21,7 +21,7 @@ function HomeRight (){
      </div>
 
      <div className="img_profile_div">
-     <i className="image_profile" />
+     <i style={{ marginTop:"1rem !important" }} className="image_profile" />
      </div><div style={{ fontSize:"25px", marginTop:"17rem", textAlign: "center", zIndex:"99999", color:"#536F16", fontWeight:"bolder", textShadow: "1px 1.5px white;" }}>
      Dipti Sunil Shegar
      </div>
