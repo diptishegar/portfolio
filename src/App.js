@@ -11,7 +11,6 @@ import Experience from "./components/Experience.js";
 import Projects from "./components/Project.js";
 import Education from "./components/Education.js";
 import Contact from "./components/Contact.js";
-
 import { useState, useEffect } from 'react';
 import Loading from './components/Loading';
 import './css/loading.css'; 
@@ -32,6 +31,7 @@ function App() {
       ) : (
       <div>
         <video autoPlay loop muted className="bg-vid"> <source src={BgVideo} type="video/mp4" /> </video>
+  
       <Router>
       <Navbar/>
           <Routes>
