@@ -1,6 +1,6 @@
 import { React, Component } from "react";
 import "../css/NavbarStyles.css"
-import { BsFilterRight, BsXCircle, BsFillVolumeMuteFill } from "react-icons/bs";
+import { BsFilterRight, BsXCircle, BsFillVolumeMuteFill, BsPersonHeart } from "react-icons/bs";
 import { FiArrowDownCircle } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import "../css/white_div.css";
@@ -76,7 +76,7 @@ class Navbar extends Component {
                                     <i className="close_X">
                                         <div onClick={this.handlePrfClick} className="down_arrow" style={{
                                             justifyContent: "center", zIndex: "999999999", position: "relative"
-                                        }}><FiArrowDownCircle style={{ zIndex: "999999999", position: "relative", fontSize: "30px" }} />
+                                        }}><BsPersonHeart style={{ zIndex: "999999999", position: "relative", fontSize: "30px" }} />
                                         </div>
                                     </i>
                                 )
