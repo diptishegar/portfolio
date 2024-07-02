@@ -16,7 +16,7 @@ options={{
     strings: [
         'I\'m working as a DBA Trainee at <span style="font-size:38px; color: #ff5f02">teradata.</span>',
         'I like to code',
-        'I love to read novels',
+        'I love to read books',
         'I like watching movies',
         'I also can skate!!'
     ],

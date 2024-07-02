@@ -14,6 +14,7 @@ import Contact from "./components/Contact.js";
 import { useState, useEffect } from 'react';
 import Loading from './components/Loading';
 import './css/loading.css'; 
+import Test from './components/test.js';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -41,6 +42,7 @@ function App() {
           <Route path='/Projects' element={<Projects />} />
           <Route path='/Education' element={<Education />} />
           <Route path='/Contact' element={<Contact />} />
+          <Route path='/test' element={<Test />} />
           </Routes>
       </Router>
       </div>

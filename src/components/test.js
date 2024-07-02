@@ -3,14 +3,14 @@ import { useTrail, animated, config } from 'react-spring';
 import "../css/education.css";
 import "../css/white_div.css";
 import HomeRight from "./sub_components/HomeRight";
-import { EducationInfo } from "./sub_components/EducationInfo";
+import { TestInfo } from "./testinfo";
 
-function Education (){
+function Test (){
 
-  const trail = useTrail(EducationInfo.length, {
+  const trail = useTrail( TestInfo.length,{
     from: { transform: 'translateY(-100%)', opacity: 0 },
     to: { transform: 'translateY(0%)', opacity: 1 },
-    config: { duration: 500 },
+    config: {duration: 500},
     trail: 500
   });
     return(
@@ -21,16 +21,15 @@ function Education (){
        {
        trail.map((props, index) =>{
           return(
-          <animated.div key={index} className="education_item" style={props}>
-          <div></div>
-            <p className="padding1 edu_items">{EducationInfo[index].institute}</p>
-            <p className="padding2 edu_items">{EducationInfo[index].year}</p>
-            <p className="padding3 edu_items">{EducationInfo[index].degree}</p>
+            <animated.div key={index} className="education_item" style={props}>
+            <div></div>
+            <p className="padding1 edu_items">{TestInfo[index].institute}</p>
             <div className="white_stick"></div>
           </animated.div>
           );
        })
-       }
+       }    
+       
       </div>
        </div>
        <HomeRight />
@@ -41,4 +40,4 @@ function Education (){
 
 
 
-export default Education;
+export default Test;

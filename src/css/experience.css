@@ -84,7 +84,7 @@
 @media screen and (max-width: 420px){
     .experience_div_div_div{
         
-        margin-top: 22rem !important;
+        margin-top: 18rem !important;
     }
 }
 
@@ -115,4 +115,15 @@
     background-color: black;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid rgba(80, 81, 81, 0.59) !important;  /* creates padding around scroll thumb */
+  }
+
+  .experience_div_div_div div:nth-child(3) div p:nth-child(1){
+    font-size:25px;
+    color: #e62b1e;
+    font-weight:bold;
+  }
+
+  .experience_div_div_div div:nth-child(4) div p:nth-child(1){
+    font-size:30px !important;
+    color: #ff5f02;
   }

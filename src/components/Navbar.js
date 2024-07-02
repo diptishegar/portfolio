@@ -92,7 +92,7 @@ class Navbar extends Component {
 
                         </div>
                         <div style={{ position: "relative", color: "white" }}>
-                            <ReactHowler src={BgAudio} playing={this.state.play} />
+                            <ReactHowler src={BgAudio} playing={this.state.play} loop="true" volume={0.2}/>
                             <button onClick={this.handlePlay}>
                                 {this.state.play ? <BiSolidMusic style={{ fontSize: "25px" }} /> : <BsFillVolumeMuteFill style={{ fontSize: "25px" }} />}
                             </button>
