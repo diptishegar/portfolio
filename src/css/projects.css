@@ -149,7 +149,7 @@
     background-size: cover !important;
     border-radius: 8px;
     padding: 0rem !important;
-    background: url('../media/images/bs.png');
+    background: url('../media/images/bsys.png');
 }
 
 .image_proj1{
@@ -161,5 +161,5 @@
     background-size: cover !important;
     border-radius: 8px;
     padding: 0rem !important;
-    background: url('../media/images/bsys.png');
+    background: url('../media/images/bs.png');
 }
