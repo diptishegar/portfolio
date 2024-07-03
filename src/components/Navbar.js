@@ -83,11 +83,11 @@ class Navbar extends Component {
                             }
 
                             <ul id="navbar" className={this.state.clicked ? "navbar_ul active" : "navbar_ul"}>
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="Experience">Experience</Link></li>
-                                <li><Link to="Education">Education</Link></li>
-                                <li><Link to="Projects">Projects</Link></li>
-                                <li><Link to="Contact">Contact Me</Link></li>
+                                <li onClick={this.handleClick}><Link to="/">Home</Link></li>
+                                <li onClick={this.handleClick}><Link to="Experience">Experience</Link></li>
+                                <li onClick={this.handleClick}><Link to="Education">Education</Link></li>
+                                <li onClick={this.handleClick}><Link to="Projects">Projects</Link></li>
+                                <li onClick={this.handleClick}><Link to="Contact">Contact Me</Link></li>
                             </ul>
 
                         </div>
@@ -103,7 +103,7 @@ class Navbar extends Component {
                             (<i className="hamburger">
                                 <BsXCircle style={{ fontSize: "30px" }} />
                             </i>) : (
-                                <i className="close_X">
+                                <i className="close_X" style={{ position:"relative", left:"2.7rem" }}>
                                     <BsFilterRight style={{ fontSize: "30px" }} />
                                 </i>
                             )
