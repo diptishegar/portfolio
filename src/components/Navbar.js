@@ -100,7 +100,7 @@ class Navbar extends Component {
                     </div>
                     <div id="mobile" onClick={this.handleClick} style={{ position: "relative", zIndex: "9999" }}>
                         {this.state.clicked ?
-                            (<i className="hamburger">
+                            (<i className="hamburger" style={{ position:"relative", left:"2.7rem" }}>
                                 <BsXCircle style={{ fontSize: "30px" }} />
                             </i>) : (
                                 <i className="close_X" style={{ position:"relative", left:"2.7rem" }}>
