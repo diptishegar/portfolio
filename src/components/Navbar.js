@@ -12,6 +12,7 @@ import { GrLinkedinOption } from "react-icons/gr";
 import { FiMail } from "react-icons/fi";
 import BgAudio from '../media/music/bgmusic.mp3';
 import "../css/Profile.css";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class Navbar extends Component {
     state = { clicked: false, prf_clicked: false, play: true };
@@ -43,7 +44,7 @@ class Navbar extends Component {
                                     </div>
 
                                     <div className="img_profile_div">
-                                        <i className="image_profile" />
+                                        <LazyLoadImage className="image_profile" />
                                     </div><div style={{ fontSize: "25px", marginTop: "17rem", textAlign: "center", zIndex: "99999", color: "#536F16", fontWeight: "bolder" }}>
                                         Dipti Sunil Shegar
                                     </div>
@@ -71,7 +72,7 @@ class Navbar extends Component {
                             </div>
                             {this.state.prf_clicked ?
                                 (<i onClick={this.handlePrfClick} className="hamburger down_arrow">
-                                    <BsXCircle style={{ fontSize: "30px", zIndex: "999999999", position: "relative" }} />
+                                    <BsXCircle style={{ color:"black", fontSize:"30px", zIndex: "999999999", position: "relative" }} />
                                 </i>) : (
                                     <i className="close_X">
                                         <div onClick={this.handlePrfClick} className="down_arrow" style={{
@@ -92,7 +93,7 @@ class Navbar extends Component {
 
                         </div>
                         <div style={{ position: "relative", color: "white" }}>
-                            <ReactHowler src={BgAudio} playing={this.state.play} loop="true" volume={0.2}/>
+                            <ReactHowler src={BgAudio} playing={this.state.play} loop="true" volume={0.2} />
                             <button onClick={this.handlePlay}>
                                 {this.state.play ? <BiSolidMusic style={{ fontSize: "25px" }} /> : <BsFillVolumeMuteFill style={{ fontSize: "25px" }} />}
                             </button>
@@ -100,10 +101,10 @@ class Navbar extends Component {
                     </div>
                     <div id="mobile" onClick={this.handleClick} style={{ position: "relative", zIndex: "9999" }}>
                         {this.state.clicked ?
-                            (<i className="hamburger" style={{ position:"relative", left:"2.7rem" }}>
+                            (<i className="hamburger" style={{ position: "relative", left: "2.7rem" }}>
                                 <BsXCircle style={{ fontSize: "30px" }} />
                             </i>) : (
-                                <i className="close_X" style={{ position:"relative", left:"2.7rem" }}>
+                                <i className="close_X" style={{ position: "relative", left: "2.7rem" }}>
                                     <BsFilterRight style={{ fontSize: "30px" }} />
                                 </i>
                             )

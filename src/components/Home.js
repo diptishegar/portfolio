@@ -4,6 +4,7 @@ import "../css/white_div.css";
 import "../css/home.css";
 import Typewriter from "typewriter-effect";
 
+
 function Home (){
     
     return(

@@ -21,6 +21,7 @@ function Contact (){
     <div className="education_main_div">
        <div className="home_main_white home_div_left bg-transparent" style={{ overflow: "hidden", display:"flex", flex:"75%"}}>
        <animated.div style={ springProps1 } className="experience_div_div border_contacts">
+       <p style={{ marginTop:"0rem !important" }} className="text_contact">Feel free to contact me😄</p>
        <div style={{ padding: "0.5rem" }}>
           <i className="image_contact" />
         </div>
@@ -29,7 +30,7 @@ function Contact (){
        <a href="https://www.instagram.com/diptis140/"><span className="social_icons_span"><BiLogoInstagram className="social_icons_c"/></span></a>
        <a href="tel:+919130778787"><span className="social_icons_span"><BiPhone className="social_icons_c" /></span></a>
        <a href="https://www.linkedin.com/in/dipti-shegar-a99577209/"><span className="social_icons_span"><GrLinkedinOption className="social_icons_c" /></span></a>
-       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=diptishegar@gmail.com"><span className="social_icons_span"><FiMail className="social_icons_c" /></span></a>
+       <a href="mailto:diptishegar@gmail.com"><span className="social_icons_span"><FiMail className="social_icons_c" /></span></a>
      </div>
      
         </div>

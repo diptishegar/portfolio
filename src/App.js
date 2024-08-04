@@ -15,6 +15,7 @@ import { useState, useEffect } from 'react';
 import Loading from './components/Loading';
 import './css/loading.css'; 
 import Test from './components/test.js';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -31,7 +32,9 @@ function App() {
         <Loading />
       ) : (
       <div>
-        <video autoPlay loop muted className="bg-vid"> <source src={BgVideo} type="video/mp4" /> </video>
+      <LazyLoadComponent>
+      <video autoPlay loop muted className="bg-vid"> <source src={BgVideo} type="video/mp4" /> </video>
+      </LazyLoadComponent>
   
       <Router>
       <Navbar/>

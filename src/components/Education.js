@@ -18,6 +18,7 @@ function Education (){
     <div className="education_main_div">
        <div className="home_main_white home_div_left" style={{ display:"flex", flex:"75%"}}>
        <div className="education_div_div">
+       <p className="text_education">My Education Background 😊</p>
        {
        trail.map((props, index) =>{
           return(

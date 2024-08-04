@@ -117,13 +117,13 @@
     border: 3px solid rgba(80, 81, 81, 0.59) !important;  /* creates padding around scroll thumb */
   }
 
-  .experience_div_div_div div:nth-child(3) div p:nth-child(1){
+  .experience_div_div_div div:nth-child(4) div p:nth-child(1){
     font-size:25px;
     color: #e62b1e;
     font-weight:bold;
   }
 
-  .experience_div_div_div div:nth-child(4) div p:nth-child(1){
+  .experience_div_div_div div:nth-child(5) div p:nth-child(1){
     font-size:30px !important;
     color: #ff5f02;
   }

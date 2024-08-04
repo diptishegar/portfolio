@@ -20,7 +20,7 @@ function Experience (){
     <div className="education_main_div">
        <div className="home_main_white home_div_left" style={{ display:"flex", flex:"75%"}}>
        <div className="experience_div_div_div">
-
+       <p className="text_education">My Experience so far😄</p>
        {
        trail.map((props, index) =>{
           return(

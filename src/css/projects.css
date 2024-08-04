@@ -14,6 +14,12 @@
 
 }
 
+.box_shadow_proj_img:hover{
+    border:2px solid #536F16;
+    box-shadow: 0px 1px 17px #536F16;
+ 
+ }
+
 
 .education_main_div{
     display: flex;
@@ -105,14 +111,28 @@
     }
     .project_div_div{
         margin-top: 13rem !important;
-
+    }
+    .text_project{
+        margin-top: 21rem !important;
+        text-align: center !important;
+    font-family:"Playwrite GB S", cursive !important;
+    padding-bottom: 10px;
+    font-size: 25px !important;
     }
 }
 
+
 @media screen and (min-width: 768px){
     .experience_div_div{
-        margin-top: -3rem !important;
+        margin-top: 10rem !important;
 
+    }
+    .text_project{
+        margin-top: 1rem !important;
+        text-align: center !important;
+    font-family:"Playwrite GB S", cursive !important;
+    padding-bottom: 10px;
+    font-size: 25px !important;
     }
 }
 
@@ -141,9 +161,10 @@
 
 
   .image_proj{
+    background-repeat: no-repeat !important;
     height: 150px;
     width: 250px;
-    object-fit: cover !important;
+    object-fit: contain !important;
     background-position: center;
     display: inline-block !important;
     background-size: cover !important;
@@ -153,13 +174,44 @@
 }
 
 .image_proj1{
+    background-repeat: no-repeat !important;
     height: 150px;
     width: 250px;
-    object-fit: cover !important;
+    object-fit: contain !important;
     background-position: center;
     display: inline-block !important;
     background-size: cover !important;
     border-radius: 8px;
     padding: 0rem !important;
     background: url('../media/images/bs.png');
+}
+.image_proj2{
+    background-repeat: no-repeat !important;
+    height: 150px;
+    width: 250px;
+    object-fit: contain !important;
+    background-position: center;
+    display: inline-block !important;
+    background-size: cover !important;
+    border-radius: 8px;
+    padding: 0rem !important;
+    background: url('../media/images/proj3.png');
+}
+
+.image_proj3{
+    background-repeat: no-repeat !important;
+    height: 150px;
+    width: 250px;
+    object-fit: contain !important;
+    background-position: center;
+    display: inline-block !important;
+    background-size: cover !important;
+    border-radius: 8px;
+    padding: 0rem !important;
+    background: url('../media/images/kickass-list.png');
+}
+
+.fit_proj_imgs{
+    width: 250px;
+    height: 150px;
 }

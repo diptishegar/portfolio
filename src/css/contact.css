@@ -97,6 +97,14 @@
     background-color: transparent !important;
 }
 
+.text_contact{
+    text-align: center !important;
+    font-family:"Playwrite GB S", cursive !important;
+    padding-bottom: 10px;
+    margin-top: 0rem !important;
+    font-size: 25px !important;
+}
+
 .border_contacts{
     border: 2px solid white;
     padding: 2rem;
